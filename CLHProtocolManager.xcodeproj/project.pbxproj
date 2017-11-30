@@ -15,6 +15,7 @@
 		7B6F6E661FCFA1250074ED9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6F6E651FCFA1250074ED9F /* main.m */; };
 		7B6F6E701FCFA1250074ED9F /* CLHProtocolManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6F6E6F1FCFA1250074ED9F /* CLHProtocolManagerTests.m */; };
 		7B6F6E7B1FCFA1250074ED9F /* CLHProtocolManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6F6E7A1FCFA1250074ED9F /* CLHProtocolManagerUITests.m */; };
+		7B6F6E8B1FCFA18D0074ED9F /* CLHProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6F6E8A1FCFA18D0074ED9F /* CLHProtocolManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7B6F6E761FCFA1250074ED9F /* CLHProtocolManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLHProtocolManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6F6E7A1FCFA1250074ED9F /* CLHProtocolManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLHProtocolManagerUITests.m; sourceTree = "<group>"; };
 		7B6F6E7C1FCFA1250074ED9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B6F6E891FCFA18D0074ED9F /* CLHProtocolManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLHProtocolManager.h; sourceTree = "<group>"; };
+		7B6F6E8A1FCFA18D0074ED9F /* CLHProtocolManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLHProtocolManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		7B6F6E551FCFA1250074ED9F /* CLHProtocolManager */ = {
 			isa = PBXGroup;
 			children = (
+				7B6F6E881FCFA1720074ED9F /* CLHProtocolManager */,
 				7B6F6E561FCFA1250074ED9F /* AppDelegate.h */,
 				7B6F6E571FCFA1250074ED9F /* AppDelegate.m */,
 				7B6F6E591FCFA1250074ED9F /* ViewController.h */,
@@ -130,6 +134,15 @@
 				7B6F6E7C1FCFA1250074ED9F /* Info.plist */,
 			);
 			path = CLHProtocolManagerUITests;
+			sourceTree = "<group>";
+		};
+		7B6F6E881FCFA1720074ED9F /* CLHProtocolManager */ = {
+			isa = PBXGroup;
+			children = (
+				7B6F6E891FCFA18D0074ED9F /* CLHProtocolManager.h */,
+				7B6F6E8A1FCFA18D0074ED9F /* CLHProtocolManager.m */,
+			);
+			path = CLHProtocolManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +281,7 @@
 				7B6F6E5B1FCFA1250074ED9F /* ViewController.m in Sources */,
 				7B6F6E661FCFA1250074ED9F /* main.m in Sources */,
 				7B6F6E581FCFA1250074ED9F /* AppDelegate.m in Sources */,
+				7B6F6E8B1FCFA18D0074ED9F /* CLHProtocolManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EVN79SZ9SL;
 				INFOPLIST_FILE = CLHProtocolManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cherongdaotest.com.CLHProtocolManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EVN79SZ9SL;
 				INFOPLIST_FILE = CLHProtocolManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cherongdaotest.com.CLHProtocolManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
